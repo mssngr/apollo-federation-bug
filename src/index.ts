@@ -4,7 +4,7 @@ import { ApolloGateway } from '@apollo/gateway'
 const gateway = new ApolloGateway({
   serviceList: [
     { name: 'example1', url: 'http://localhost:4001/graphql' },
-    { name: 'exapmle2', url: 'http://localhost:4002/graphql' },
+    { name: 'example2', url: 'http://localhost:4002/graphql' },
   ],
 })
 
